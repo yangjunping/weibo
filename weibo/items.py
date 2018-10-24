@@ -10,5 +10,7 @@ import scrapy
 
 class WeiboItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    weiboid=scrapy.Field()
+    desc1=scrapy.Field()
+    desc2=scrapy.Field()
